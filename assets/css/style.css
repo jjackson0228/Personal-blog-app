@@ -17,6 +17,7 @@ body {
 .left-container {
     display: flex;
     flex: 1 1 50%;
+    justify-content: center;
     border: 1px solid red;
 }
 
