@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
+main {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     display: flex;
@@ -14,11 +14,22 @@ body {
     margin: 0;
 }
 
+
+.header {
+    background-color: aquamarine;
+    display: flex;
+    flex: 1 1 50%;
+
+
+}
+
 .left-container {
     display: flex;
     flex: 1 1 50%;
     justify-content: center;
     border: 1px solid red;
+    height: 100%;
+
 }
 
 .right-container {
@@ -26,6 +37,7 @@ body {
     flex: 1 1 50%;
     justify-content: center;
     border: 1px solid red;
+
 }
 
 @media (max-width: 690px) {
