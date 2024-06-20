@@ -14,13 +14,8 @@ body {
 /* added light mode selector */
 .light {
     background-color: white;
-    color: rgb(14, 3, 3);
+    color: rgb(9, 5, 5);
 
-}
-
-.light {
-    background-color: white;
-    color: rgb(14, 3, 3);
 }
 
 /* added dark mode selector  */
@@ -72,6 +67,7 @@ main {
     flex: 1 1 50%;
     justify-content: center;
     border: 1px solid red;
+    height: 80%;
 
 }
 
