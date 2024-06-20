@@ -11,17 +11,22 @@ body {
     font: color black;
 }
 
-body.light-mode {
+/* added light mode selector */
+.light-mode {
     background-color: white;
     color: black;
+    font: color black;
 }
 
-body.dark-mode {
+/* added dark mode selector  */
+.dark-mode {
     background-color: black;
     color: white;
 }
 
+/* added button  */
 button {
+
     padding: 10px 20px;
     font-size: 16px;
     margin-top: 20px;
@@ -43,6 +48,7 @@ main {
     background-color: aquamarine;
     display: flex;
     flex: 1 1 50%;
+    font: color black;
 
 
 }
