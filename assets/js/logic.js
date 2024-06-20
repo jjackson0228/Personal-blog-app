@@ -2,7 +2,10 @@
 document.addEventListener("DOMContentLoaded", () => {
   const toggleButton = document.querySelector("#mode-toggle");
   const body = document.body;
-
+  //   added mainEL and headerEL
+  const mainEL = document.body.querySelector("main");
+  const headerEL = document.body.querySelector("header");
+  console.log(mainEL);
   // get saved theme from storage
   const savedTheme = localStorage.getItem("theme");
 
@@ -10,7 +13,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const setTheme = (theme) => {
     body.classList.remove("light", "dark");
     body.classList.add(theme);
+    mainEL.classList.remove("light", "dark");
+    mainEL.classList.add(theme);
+    headerEL.classList.remove("light", "dark");
+    headerEL.classList.add(theme);
   };
+
   //set theme based on saved theme or default to light
   if (savedTheme) {
     setTheme(savedTheme);

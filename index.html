@@ -8,18 +8,20 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body class="light dark" id="light_mode dark_mode">
-
-    <header class="header" id="header">
+<body id="light_mode dark_mode">
+    <!-- added light and dark to header -->
+    <header class="header light dark" id="header">
         <h1>light/dark mode toggle</h1>
         <button id="mode-toggle">Toggle Light/Dark Mode</button>
     </header>
-    <main>
+    <!-- added light and dark mode to man  -->
+    <main class="light dark">
         <section class="left-container" id="left_container">
             <h1>Blog Sign In</h1>
         </section>
         <section class="right-container" id="right_container">
             <h2>What's on your mind?</h2>
+            <!-- added form to blog  -->
             <form id="blog-form">
                 <label for="username">Username:</label>
                 <input type="text" id="username" name="username" required><br><br>
@@ -29,6 +31,7 @@
                 <textarea id="blog-content" name="blog-content" required></textarea><br><br>
                 <button type="submit">Submit</button>
             </form>
+
         </section>
     </main>
     <script src="./assets/js/logic.js"></script>
