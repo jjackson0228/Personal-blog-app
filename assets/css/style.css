@@ -12,14 +12,19 @@ body {
 }
 
 /* added light mode selector */
-.light-mode {
+.light {
     background-color: white;
-    color: black;
-    font: color black;
+    color: rgb(14, 3, 3);
+
+}
+
+.light {
+    background-color: white;
+    color: rgb(14, 3, 3);
 }
 
 /* added dark mode selector  */
-.dark-mode {
+.dark {
     background-color: black;
     color: white;
 }

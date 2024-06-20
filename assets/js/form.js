@@ -8,24 +8,24 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // function to set theme class on body
   const setTheme = (theme) => {
-    body.classList.remove("light-mode", "dark-mode");
+    body.classList.remove("light", "dark");
     body.classList.add(theme);
   };
   //set theme based on saved theme or default to light
   if (savedTheme) {
     setTheme(savedTheme);
   } else {
-    setTheme("light-mode");
-    localStorage.setItem("theme", "light-mode");
+    setTheme("light");
+    localStorage.setItem("theme", "light");
   }
   //add event listener to toggle theme
   toggleButton.addEventListener("click", () => {
-    if (body.classList.contains("light-mode")) {
-      setTheme("dark-mode");
-      localStorage.setItem("theme", "dark-mode");
+    if (body.classList.contains("light")) {
+      setTheme("dark");
+      localStorage.setItem("theme", "dark");
     } else {
-      setTheme("light-mode");
-      localStorage.setItem("theme", "light-mode");
+      setTheme("light");
+      localStorage.setItem("theme", "light");
     }
   });
 });
