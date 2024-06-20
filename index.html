@@ -10,6 +10,7 @@
 </head>
 
 <body class="light-mode dark-mode" id="light_mode dark_mode">
+
     <header class="header" id="header">
         <h1>light/dark mode toggle</h1>
         <button id="mode-toggle">Toggle Light/Dark Mode</button>
@@ -20,6 +21,14 @@
         </section>
         <section class="right-container" id="right_container">
             <h2>What's on your mind?</h2>
+            <form id="blog-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required><br><br>
+                <label for="blog-title">Blog Title:</label>
+                <input type="text" id="blog-title" name="blog-title" required><br><br>
+                <label for="blog-content">Blog Content:</label>
+                <textarea id="blog-content" name="blog-content" required></textarea><br><br>
+                <button type="submit">Submit</button>
         </section>
     </main>
     <script src="./assets/js/form.js"></script>

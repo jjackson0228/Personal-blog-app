@@ -2,23 +2,29 @@
 document.addEventListener("DOMContentLoaded", () => {
   const toggleButton = document.querySelector("#mode-toggle");
   const body = document.body;
-  //adding theme to be stored in local data
+
+  // get saved theme from storage
   const savedTheme = localStorage.getItem("theme");
+
+  // function to set theme class on body
+  const setTheme = (theme) => {
+    body.classList.remove("light-mode", "dark-mode");
+    body.classList.add(theme);
+  };
+  //set theme based on saved theme or default to light
   if (savedTheme) {
-    body.classList.add(savedTheme);
+    setTheme(savedTheme);
   } else {
-    //default to light mode
-    body.classList.add("light-mode");
+    setTheme("light-mode");
+    localStorage.setItem("theme", "light-mode");
   }
-  //adding local storage to even listener click
+  //add event listener to toggle theme
   toggleButton.addEventListener("click", () => {
     if (body.classList.contains("light-mode")) {
-      body.classList.remove("light-mode");
-      body.classList.add("dark-mode");
+      setTheme("dark-mode");
       localStorage.setItem("theme", "dark-mode");
     } else {
-      body.classList.remove("dark-mode");
-      body.classList.add("light-mode");
+      setTheme("light-mode");
       localStorage.setItem("theme", "light-mode");
     }
   });
