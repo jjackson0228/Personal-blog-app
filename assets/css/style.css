@@ -2,6 +2,7 @@
 *::before,
 *::after {
     box-sizing: border-box;
+
 }
 
 body {
@@ -24,16 +25,6 @@ body {
     color: white;
 }
 
-/* added button  */
-button {
-
-    padding: 10px 20px;
-    font-size: 16px;
-    margin-top: 20px;
-    cursor: pointer;
-
-}
-
 main {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -46,12 +37,26 @@ main {
 
 
 .header {
-    /* background-color: aquamarine; */
     display: flex;
-    flex: 1 1 50%;
-    font: color black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
     border: 1px solid red;
 
+
+}
+
+/* added button  */
+.header #mode-toggle {
+    display: flex;
+    flex: end;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    position: relative;
 
 }
 
@@ -69,7 +74,7 @@ main {
     flex: 1 1 50%;
     justify-content: center;
     border: 1px solid red;
-    height: 80%;
+    height: 100%;
 
 }
 
