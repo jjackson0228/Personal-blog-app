@@ -17,8 +17,13 @@ document.addEventListener("DOMContentLoaded", () => {
     mainEL.classList.add(theme);
     headerEL.classList.remove("light", "dark");
     headerEL.classList.add(theme);
-  };
 
+    if (theme === "light") {
+      toggleButton.src = "sun.png";
+    } else {
+      toggleButton.src = "moon.png";
+    }
+  };
   //set theme based on saved theme or default to light
   if (savedTheme) {
     setTheme(savedTheme);
@@ -27,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
     localStorage.setItem("theme", "light");
   }
   //add event listener to toggle theme
-  toggleButton.addEventListener("click", () => {
+  document.querySelector("#mode-toggle").addEventListener("click", () => {
     if (body.classList.contains("light")) {
       setTheme("dark");
       localStorage.setItem("theme", "dark");

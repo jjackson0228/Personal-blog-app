@@ -84,6 +84,7 @@ main {
 }
 
 /* added diameters to the size of the form box  */
+/* added diameters to the size of the form box */
 #blog-form {
     width: 100%;
     max-width: 400px;
@@ -94,7 +95,7 @@ main {
     border-radius: 5px;
 }
 
-/* specific styling for light mode for blog from  */
+/* specific styling for light mode for blog form */
 .light #blog-form {
     background-color: #fff;
     border: 1px solid #ccc;
@@ -120,7 +121,7 @@ main {
     background-color: #0056b3;
 }
 
-/* specific styling for dark mode for blog form  */
+/* specific styling for dark mode for blog form */
 .dark #blog-form {
     background-color: #333;
     border: 1px solid #555;
@@ -146,6 +147,13 @@ main {
     background-color: #0056b3;
 }
 
+@media (max-width: 690px) {
+    .btn {
+        font-size: 1rem;
+        margin: 16px 0px 0px 0px;
+        padding: 10px 15px;
+    }
+}
 
 @media (max-width: 690px) {
     .btn {
