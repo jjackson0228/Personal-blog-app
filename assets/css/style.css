@@ -71,13 +71,16 @@ main {
     text-align: center;
 }
 
+/* fixed right container styling aligning items and making flex direction column  */
 .right-container {
     display: flex;
     flex: 1 1 50%;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     border: 1px solid red;
     height: 100%;
-
+    padding: 20px;
 }
 
 /* added diameters to the size of the form box  */
