@@ -57,8 +57,11 @@ main {
     margin-top: 20px;
     cursor: pointer;
     position: relative;
+    background: url(../../images/sun.png);
+    background-size: 100%;
 
 }
+
 
 /* fixed the centering of left text h1adding align items and text align  */
 .left-container {
