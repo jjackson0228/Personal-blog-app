@@ -60,13 +60,15 @@ main {
 
 }
 
+/* fixed the centering of left text h1adding align items and text align  */
 .left-container {
     display: flex;
     flex: 1 1 50%;
     justify-content: center;
+    align-items: center;
     border: 1px solid red;
     height: 100%;
-
+    text-align: center;
 }
 
 .right-container {
