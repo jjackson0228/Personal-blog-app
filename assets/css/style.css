@@ -86,6 +86,10 @@ main {
     padding: 20px;
 }
 
+#blog_content {
+    align-items: center;
+}
+
 /* added diameters to the size of the form box  */
 /* added diameters to the size of the form box */
 #blog-form {
