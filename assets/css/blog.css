@@ -17,32 +17,37 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
-    padding: 0px;
+    padding: 20px;
     border: 1px solid red;
 
 }
 
-button {
-    display: flex;
-
-
-}
-
-/* added button  */
-.header #mode-toggle {
+/* added button container  */
+.button-container {
     display: flex;
     flex: end;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 0px;
+    padding: 20px;
     font-size: 16px;
-    margin-top: 20px;
+    margin-top: 10px;
     cursor: pointer;
     position: relative;
+
+}
+
+/* added back button image to button  */
+#back {
+    background: url(../../images/back-button.png);
+    background-size: 100%;
+}
+
+/* specified mode toggle to have its own pic */
+#mode-toggle {
     background: url(../../images/sun.png);
-    background: 100%;
+    background-size: 100%;
 }
 
 /* added light mode selector */
