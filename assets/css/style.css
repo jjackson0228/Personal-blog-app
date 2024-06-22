@@ -52,9 +52,9 @@ main {
     flex: end;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 10px 20px;
+    padding: 20px;
     font-size: 16px;
-    margin-top: 20px;
+    margin-top: 0px;
     cursor: pointer;
     position: relative;
     background: url(../../images/sun.png);
