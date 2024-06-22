@@ -19,7 +19,6 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 20px;
     border: 1px solid red;
 
 }
@@ -39,7 +38,7 @@ body {
 
 /* added back button image to button  */
 #back {
-    background: url(../../images/back-button.png);
+    background: url(../../images/back_button.png);
     background-size: 100%;
 }
 
