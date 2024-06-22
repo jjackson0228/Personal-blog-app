@@ -1,6 +1,7 @@
 //added event listener and const for toggle button to switch from light and dark mode
 document.addEventListener("DOMContentLoaded", () => {
   const toggleButton = document.querySelector("#mode-toggle");
+  const backButton = document.getElementById("back");
   const body = document.body;
   //   added mainEL and headerEL
   const mainEL = document.body.querySelector("main");
@@ -40,5 +41,9 @@ document.addEventListener("DOMContentLoaded", () => {
       setTheme("light");
       localStorage.setItem("theme", "light");
     }
+  });
+  // add event listener to back button made sure back button worked correctly
+  backButton.addEventListener("click", () => {
+    window.location.href = "index.html";
   });
 });

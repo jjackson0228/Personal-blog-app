@@ -13,14 +13,36 @@ body {
 }
 
 /* added header to put the light dark button  */
+
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 0px;
     border: 1px solid red;
 
+}
 
+button {
+    display: flex;
+
+
+}
+
+/* added button  */
+.header #mode-toggle {
+    display: flex;
+    flex: end;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    position: relative;
+    background: url(../../images/sun.png);
+    background: 100%;
 }
 
 /* added light mode selector */
@@ -36,20 +58,7 @@ body {
     color: white;
 }
 
-/* added button  */
-.header #mode-toggle {
-    display: flex;
-    flex: end;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 10px 20px;
-    font-size: 16px;
-    margin-top: 20px;
-    cursor: pointer;
-    position: relative;
-    background: url(../../images/sun.png);
-    background: 100%;
-}
+
 
 @media (max-width: 690px) {
     .btn {
