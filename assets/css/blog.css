@@ -32,10 +32,9 @@ body {
     flex-wrap: wrap;
     padding: 20px;
     font-size: 16px;
-    margin-top: 0px;
     cursor: pointer;
     position: relative;
-
+    gap: 20px
 }
 
 /* added back button image to button  */
