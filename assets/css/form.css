@@ -4,6 +4,67 @@
     box-sizing: border-box;
 }
 
+#blog-form {
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #000;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+/* specific styling for light mode for blog form */
+.light #blog-form {
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.light #blog-form label {
+    color: black;
+}
+
+.light #blog-form input,
+.light #blog-form textarea {
+    background-color: #fff;
+    color: black;
+    border: 1px solid #ccc;
+}
+
+.light #blog-form button {
+    background-color: #007BFF;
+    color: white;
+}
+
+.light #blog-form button:hover {
+    background-color: #0056b3;
+}
+
+/* specific styling for dark mode for blog form */
+.dark #blog-form {
+    background-color: #333;
+    border: 1px solid #555;
+}
+
+.dark #blog-form label {
+    color: white;
+}
+
+.dark #blog-form input,
+.dark #blog-form textarea {
+    background-color: #555;
+    color: white;
+    border: 1px solid #777;
+}
+
+.dark #blog-form button {
+    background-color: #007BFF;
+    color: white;
+}
+
+.dark #blog-form button:hover {
+    background-color: #0056b3;
+}
 
 @media (max-width: 690px) {
     .btn {
