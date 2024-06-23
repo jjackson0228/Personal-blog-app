@@ -15,6 +15,7 @@ body {
 /* added header to put the light dark button  */
 
 
+
 .header {
     display: flex;
     justify-content: flex-end;
@@ -34,6 +35,30 @@ body {
     cursor: pointer;
     position: relative;
     gap: 20px
+}
+
+.posts div main {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.posts h2 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.posts p {
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.posts strong {
+    color: #777;
 }
 
 /* added back button image to button  */

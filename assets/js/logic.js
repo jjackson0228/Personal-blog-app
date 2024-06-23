@@ -42,8 +42,4 @@ document.addEventListener("DOMContentLoaded", () => {
       localStorage.setItem("theme", "light");
     }
   });
-  // add event listener to back button made sure back button worked correctly
-  backButton.addEventListener("click", () => {
-    window.location.href = "index.html";
-  });
 });
