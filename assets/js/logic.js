@@ -1,7 +1,6 @@
 //added event listener and const for toggle button to switch from light and dark mode
 document.addEventListener("DOMContentLoaded", () => {
   const toggleButton = document.querySelector("#mode-toggle");
-  const backButton = document.getElementById("back");
   const body = document.body;
   //   added mainEL and headerEL
   const mainEL = document.body.querySelector("main");
@@ -20,9 +19,9 @@ document.addEventListener("DOMContentLoaded", () => {
     headerEL.classList.add(theme);
 
     if (theme === "light") {
-      toggleButton.src = "sun.png";
+      toggleButton.src = "../../images/sun.png";
     } else {
-      toggleButton.src = "moon.png";
+      toggleButton.src = "../../images/moon.png";
     }
   };
   //set theme based on saved theme or default to light

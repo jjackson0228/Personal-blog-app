@@ -7,10 +7,10 @@ document.addEventListener("DOMContentLoaded", () => {
     postsContainer.innerHTML = "";
     posts.forEach((post) => {
       const postEL = document.createElement("div");
-      postEL.classList.add("article");
+      postEL.classList.add("post-container");
       postEL.innerHTML = `
           <h2>${post.title}</h2>
-          <p>${post.content}</p>
+          <ul>${post.content}</ul>
           <p><strong>Author:</strong> ${post.author}</p>
         `;
       postsContainer.appendChild(postEL);
