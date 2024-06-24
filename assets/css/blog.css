@@ -110,10 +110,18 @@ header .button-container {
     color: #040101;
 }
 
+footer {
+    align-items: center;
+    background-color: #f4f4f4;
+    font: color black;
+}
+
+
 /*specific styling for light mode for blog posts */
 .light .post-container {
     background-color: #fff;
     border: 1px solid #070202;
+
 }
 
 .light {

@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   //   added mainEL and headerEL
   const mainEL = document.body.querySelector("main");
   const headerEL = document.body.querySelector("header");
+  const footerEL = document.body.querySelector("footer");
   console.log(mainEL);
   // get saved theme from storage
   const savedTheme = localStorage.getItem("theme");
@@ -17,6 +18,8 @@ document.addEventListener("DOMContentLoaded", () => {
     mainEL.classList.add(theme);
     headerEL.classList.remove("light", "dark");
     headerEL.classList.add(theme);
+    footerEL.classList.remove("light", "dark");
+    footerEL.classList.add(theme);
 
     if (theme === "light") {
       toggleButton.src = "../../images/sun.png";
