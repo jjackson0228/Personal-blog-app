@@ -21,45 +21,49 @@
     position: relative;
 }
 
+/* commented out display flex so i could line break  */
 .blog-content {
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
     align-items: center;
     width: 90%;
-    padding: 10px;
+    /* padding: 10px; */
     margin-bottom: 20px;
-
-
-
-
-
-
 }
 
-/* added value to usernaem form  */
+/* added value to username form  */
 .username input#username {
-    width: 50%;
+    width: 60%;
     padding: 10px;
     margin-bottom: 20px;
     margin-left: 10px;
 
 }
 
+/* commented out margin- right  */
 .blog-title input#blog-title {
-    width: 50%;
+    width: 60%;
+    height: 60px;
     padding: 10px;
     margin-bottom: 20px;
-    margin-right: 20px;
+    /* margin-right: 20px; */
     margin-left: 10px;
 
 }
 
-
+/* commented out margin left  */
 
 textarea {
     width: 70%;
     height: 80px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
+}
+
+/* made submit button smaller and thicker */
+#submit {
+    width: 20%;
+    height: 100%;
+
 }
 
 /* specific styling for light mode for blog form */

@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
       postEL.classList.add("post-container"); //each post will have its own container
       postEL.innerHTML = `
           <h2>${post.title}</h2>  
-          <li>${post.content}</>
+          <li>${post.content}</li>
           <p><strong>Author:</strong> ${post.author}</p>
         `; //above code makes a string to post have each post with value of h2, li, p<strong>
       postsContainer.appendChild(postEL);
