@@ -14,21 +14,24 @@ body {
 
 /* added header to put the light dark button  */
 
-
+h1 {
+    display: flex;
+    align-items: flex-start;
+}
 
 .header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     border: 1px solid red;
+    padding: 5px 20px;
 
 }
 
 /* added button container  */
-.button-container {
+header .button-container {
     display: flex;
     flex: end;
-    justify-content: center;
     flex-wrap: wrap;
     padding: 20px;
     font-size: 16px;
