@@ -48,7 +48,7 @@ body {
 
 /* added post container to make value to make posts have border */
 .post-container {
-    border: 1px solid #010000;
+    border: 10px solid #010000;
     padding: 20px;
     border-radius: 8px;
     background-color: #fff;
@@ -72,6 +72,21 @@ body {
     height: 2px;
     /* Thickness of the underline */
     background-color: #333;
+    /* Color of the underline */
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    /* Adjust position as needed */
+}
+
+.dark .posts h2::after {
+    content: "";
+    display: block;
+    width: calc(100% - 40px);
+    /* Adjust the width to be almost the full width of the container */
+    height: 2px;
+    /* Thickness of the underline */
+    background-color: #f7f4f4;
     /* Color of the underline */
     position: absolute;
     left: 0;
