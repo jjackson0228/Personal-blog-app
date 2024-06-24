@@ -76,7 +76,7 @@ body {
 }
 
 /*specific styling for light mode for blog posts */
-.light .posts-container {
+.light .post-container {
     background-color: #fff;
     border: 1px solid #070202;
 }
@@ -86,13 +86,13 @@ body {
 }
 
 /* specific styling for dark mode for blog posts*/
-.dark .posts-container {
+.dark .post-container {
     background-color: #333;
     border: 1px solid #e4d6d6;
 }
 
 /* set value for dark mode post container li */
-.dark .posts-container li {
+.dark .post-container li {
     color: white;
 }
 
@@ -102,7 +102,7 @@ body {
 }
 
 /* set dark mode post for post container and h2 */
-.dark .posts-container h2 {
+.dark .post-container h2 {
     background-color: #333;
     color: white;
 
