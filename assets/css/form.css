@@ -129,7 +129,23 @@ textarea {
     color: red
 }
 
+/* Media queries updated to include form  */
 @media (max-width: 690px) {
+    #blog-form {
+        padding: 30px;
+    }
+
+    .username input#username,
+    .blog-title input#blog-title,
+    textarea {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #submit {
+        width: 50%;
+    }
+
     .btn {
         font-size: 1rem;
         margin: 16px 0px 0px 0px;
@@ -138,7 +154,15 @@ textarea {
 }
 
 @media (max-width: 500px) {
+    #blog-form {
+        padding: 20px;
+    }
+
     .btn {
         font-size: 0.8rem;
+    }
+
+    #submit {
+        width: 80%;
     }
 }
