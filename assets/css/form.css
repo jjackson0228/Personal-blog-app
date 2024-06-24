@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-#blog_content {
-    align-items: center;
-}
 
 /* set value for from id blog form  */
 #blog-form {
@@ -17,11 +14,52 @@
     max-width: 100%;
     height: 80%;
     border: 1px solid #000;
-    padding: 40px;
+    padding: 60px;
     box-sizing: border-box;
     background-color: #fff;
     border-radius: 5px;
     position: relative;
+}
+
+.blog-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+
+
+
+
+
+
+}
+
+/* added value to usernaem form  */
+.username input#username {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+
+}
+
+.blog-title input#blog-title {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 10px;
+
+}
+
+
+
+textarea {
+    width: 70%;
+    height: 80px;
+    margin-left: 20px;
 }
 
 /* specific styling for light mode for blog form */
