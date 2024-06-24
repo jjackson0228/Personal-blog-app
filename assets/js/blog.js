@@ -7,17 +7,17 @@ document.addEventListener("DOMContentLoaded", () => {
     postsContainer.innerHTML = "";
     posts.forEach((post) => {
       const postEL = document.createElement("div");
-      postEL.classList.add("post-container");
+      postEL.classList.add("post-container"); //each post will have its own container
       postEL.innerHTML = `
-          <h2>${post.title}</h2>
-          <li>${post.content}</li>
+          <h2>${post.title}</h2>  
+          <li>${post.content}</>
           <p><strong>Author:</strong> ${post.author}</p>
-        `;
+        `; //above code makes a string to post have each post with value of h2, li, p<strong>
       postsContainer.appendChild(postEL);
     });
   };
 
-  // Display posts on page load
+  // Displays posts on page load
   if (postsContainer) {
     displayPosts();
   }

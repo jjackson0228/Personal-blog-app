@@ -47,12 +47,11 @@ body {
 }
 
 /* added post container to make value to make posts have border */
-.posts-container {
-    background-color: #f9f9f9;
-    padding: 10px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    border: 2px solid black;
+.post-container {
+    border: 1px solid #010000;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
 }
 
 /* added post to have h2 elements and underline */
