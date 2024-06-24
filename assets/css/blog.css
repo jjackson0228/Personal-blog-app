@@ -52,14 +52,31 @@ body {
     padding: 20px;
     border-radius: 8px;
     background-color: #fff;
+    position: relative;
 }
 
 /* added post to have h2 elements and underline */
 .posts h2 {
     color: #333;
     font-size: 1.5rem;
-    margin-bottom: 5px;
-    text-decoration: underline;
+    margin-bottom: 20px;
+    position: relative;
+
+}
+
+.posts h2::after {
+    content: "";
+    display: block;
+    width: calc(100% - 40px);
+    /* Adjust the width to be almost the full width of the container */
+    height: 2px;
+    /* Thickness of the underline */
+    background-color: #333;
+    /* Color of the underline */
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    /* Adjust position as needed */
 }
 
 /* added li to have a bullet point in front of post  */
