@@ -127,6 +127,19 @@ footer {
 
 }
 
+/* added link in footer for my portfolio  */
+footer a {
+    color: #00bfff;
+    /* Link color */
+    text-decoration: none;
+    /* Remove underline */
+}
+
+footer a:hover {
+    text-decoration: underline;
+    /* Add underline on hover */
+}
+
 /*specific styling for light mode for blog posts */
 .light .post-container {
     background-color: #fff;
