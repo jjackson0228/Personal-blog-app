@@ -49,12 +49,13 @@ body {
 /* added post container to make value to make posts have border */
 .posts-container {
     background-color: #f9f9f9;
-    padding: 20px;
+    padding: 10px;
     margin-bottom: 20px;
     border-radius: 5px;
     border: 2px solid black;
 }
 
+/* added post to have h2 elements and underline */
 .posts h2 {
     color: #333;
     font-size: 1.5rem;
@@ -62,21 +63,61 @@ body {
     text-decoration: underline;
 }
 
-.posts ul {
-
+/* added li to have a bullet point in front of post  */
+.posts li {
     color: #555;
     font-size: 1rem;
     line-height: 1.5;
+
 }
 
+/* changed the color of string to black not brown */
 .posts strong {
     color: #040101;
+}
+
+/*specific styling for light mode for blog posts */
+.light .posts-container {
+    background-color: #fff;
+    border: 1px solid #070202;
+}
+
+.light {
+    color: black;
+}
+
+/* specific styling for dark mode for blog posts*/
+.dark .posts-container {
+    background-color: #333;
+    border: 1px solid #e4d6d6;
+}
+
+/* set value for dark mode post container li */
+.dark .posts-container li {
+    color: white;
+}
+
+/* set dark mode post for strong  */
+.dark .posts strong {
+    color: white;
+}
+
+/* set dark mode post for post container and h2 */
+.dark .posts-container h2 {
+    background-color: #333;
+    color: white;
+
+}
+
+.dark #blog-form button:hover {
+    background-color: #0056b3;
 }
 
 /* added back button image to button  */
 #back {
     background: url(../../images/back_button.png);
     background-size: 100%;
+
 }
 
 /* specified mode toggle to have its own pic */

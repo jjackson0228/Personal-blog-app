@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
       postEL.classList.add("post-container");
       postEL.innerHTML = `
           <h2>${post.title}</h2>
-          <ul>${post.content}</ul>
+          <li>${post.content}</li>
           <p><strong>Author:</strong> ${post.author}</p>
         `;
       postsContainer.appendChild(postEL);

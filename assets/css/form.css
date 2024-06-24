@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+#blog_content {
+    align-items: center;
+}
+
+/* set value for from id blog form  */
 #blog-form {
     width: 100%;
     max-width: 400px;
@@ -20,10 +25,12 @@
     border: 1px solid #ccc;
 }
 
+/* added blog from label light mode  */
 .light #blog-form label {
     color: black;
 }
 
+/* added light mode to input and textarea */
 .light #blog-form input,
 .light #blog-form textarea {
     background-color: #fff;
@@ -31,6 +38,7 @@
     border: 1px solid #ccc;
 }
 
+/* added hover icon over button  */
 .light #blog-form button {
     background-color: #007BFF;
     color: white;
@@ -46,10 +54,12 @@
     border: 1px solid #555;
 }
 
+/* set value for blog form label dark mode  */
 .dark #blog-form label {
     color: white;
 }
 
+/* set dark mode value for input and textarea  */
 .dark #blog-form input,
 .dark #blog-form textarea {
     background-color: #555;
@@ -57,6 +67,7 @@
     border: 1px solid #777;
 }
 
+/* set value for dark mode form submit button  */
 .dark #blog-form button {
     background-color: #007BFF;
     color: white;
@@ -64,6 +75,11 @@
 
 .dark #blog-form button:hover {
     background-color: #0056b3;
+}
+
+#errorMessage {
+    display: none;
+    color: red
 }
 
 @media (max-width: 690px) {
