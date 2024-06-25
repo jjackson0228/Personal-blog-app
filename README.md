@@ -4,7 +4,7 @@ Create a personal blog. When the blog is submitted it redirects you to the next 
 
 ## Screenshots
 
-![alt text](<Screenshot 2024-06-24 at 9.19.24 PM.png>)
+![alt text]./images/(<Screenshot 2024-06-24 at 9.19.24 PM.png>)
 ![alt text](<Screenshot 2024-06-24 at 9.19.24 PM.png>)
 ![alt text](<Screenshot 2024-06-24 at 9.19.24 PM.png>)
 ![alt text](<Screenshot 2024-06-24 at 9.32.46 PM.png>)
