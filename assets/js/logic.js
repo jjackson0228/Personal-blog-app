@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
     headerEL.classList.add(theme);
     footerEL.classList.remove("light", "dark");
     footerEL.classList.add(theme);
+
     if (theme === "light") {
       toggleButton.src = "../../images/sun.png";
     } else {

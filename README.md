@@ -5,6 +5,16 @@ Create a personal blog. When the blog is submitted it redirects you to the next 
 ## Screenshots
 
 ![alt text](<Screenshot 2024-06-24 at 9.19.24 PM.png>)
+![alt text](<Screenshot 2024-06-24 at 9.19.24 PM.png>)
+![alt text](<Screenshot 2024-06-24 at 9.19.24 PM.png>)
+![alt text](<Screenshot 2024-06-24 at 9.32.46 PM.png>)
+![alt text](<Screenshot 2024-06-24 at 9.33.45 PM.png>)
+![alt text](<Screenshot 2024-06-24 at 9.34.14 PM.png>)
+![alt text](<Screenshot 2024-06-24 at 9.34.29 PM.png>)
+![alt text](<Screenshot 2024-06-24 at 9.34.37 PM.png>)
+![alt text](<Screenshot 2024-06-24 at 9.34.56 PM.png>)
+![alt text](<Screenshot 2024-06-24 at 9.35.02 PM.png>)
+![alt text](<Screenshot 2024-06-24 at 9.35.46 PM.png>)
 
 ### Links
 
