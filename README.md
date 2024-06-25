@@ -17,20 +17,20 @@ Created a personal blog application where you can sign in with a username, blog 
 
 - vsCode
 - github
-  With a file path of:
+  - With a file path of:
   - my-blog
-    ├── assets
-    │ ├── css
-    │ │ ├── blog.css
-    │ │ ├── form.css
-    │ │ └── styles.css
-    │ └── js
-    │ ├── blog.js
-    │ ├── form.js
-    │ └── logic.js
-    ├── index.html
-    ├── blog.html
-    └── README.md
+  - ├── assets
+  - │ ├── css
+  - │ │ ├── blog.css
+  - │ │ ├── form.css
+  - │ │ └── styles.css
+  - │ └── js
+  - │ ├── blog.js
+  - │ ├── form.js
+  - │ └── logic.js
+  - ├── index.html
+  - ├── blog.html
+  - └── README.md
 
 ###### Code source
 
