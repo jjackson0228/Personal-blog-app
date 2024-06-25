@@ -4,14 +4,19 @@ Create a personal blog. When the blog is submitted it redirects you to the next 
 
 ## Screenshots
 
-- home page can be toggled light and dark ![home page](<./images/Screenshot 2024-06-24 at 9.19.24 PM.png>)
+- home page can be toggled light and dark click the sun ![home page](<./images/Screenshot 2024-06-24 at 9.19.24 PM.png>)
   ![dark home page](<./images/Screenshot 2024-06-24 at 9.32.46 PM.png>)
+
 - fill form and submit ![fill form](<./images/Screenshot 2024-06-24 at 9.35.02 PM.png>)
+
 - submission turns into blog post and directs you to next page ![blog post](<./images/Screenshot 2024-06-24 at 9.34.14 PM.png>)
+
 - dark blog post click the sun ![blog post dark](<./images/Screenshot 2024-06-24 at 9.33.45 PM.png>)
 
 - link in footer to my portfolio ![link to portfolio](<./images/Screenshot 2024-06-24 at 9.34.29 PM.png>)
+
 - portfolio ![portfolio](<./images/Screenshot 2024-06-24 at 9.34.37 PM.png>)
+
 - back button takes you to home page ![back button](<./images/Screenshot 2024-06-24 at 9.34.56 PM.png>)
 
 - console log shows light or dark mode and local storage of arrays ![console showing arrays](<./images/Screenshot 2024-06-24 at 9.35.46 PM.png>)
