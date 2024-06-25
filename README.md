@@ -4,6 +4,8 @@ Create a personal blog. When the blog is submitted it redirects you to the next 
 
 ## Screenshots
 
+![alt text](<Screenshot 2024-06-24 at 9.19.24 PM.png>)
+
 ### Links
 
 - https://jjackson0228.github.io/Personal-blog-app/
