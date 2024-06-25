@@ -23,7 +23,7 @@ Created a personal blog application where you can sign in with a username, blog 
 
 ###### Code source
 
-- I got help form learning xpert tool
+- I got help from learning xpert tool
 - I got help from stack overflow
 - I got help from chatGpt
 - I got help from google
