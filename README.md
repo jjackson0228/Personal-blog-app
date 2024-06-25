@@ -4,17 +4,17 @@ Create a personal blog. When the blog is submitted it redirects you to the next 
 
 ## Screenshots
 
-![alt text]./images/(<Screenshot 2024-06-24 at 9.19.24 PM.png>)
-![alt text](<Screenshot 2024-06-24 at 9.19.24 PM.png>)
-![alt text](<Screenshot 2024-06-24 at 9.19.24 PM.png>)
-![alt text](<Screenshot 2024-06-24 at 9.32.46 PM.png>)
-![alt text](<Screenshot 2024-06-24 at 9.33.45 PM.png>)
-![alt text](<Screenshot 2024-06-24 at 9.34.14 PM.png>)
-![alt text](<Screenshot 2024-06-24 at 9.34.29 PM.png>)
-![alt text](<Screenshot 2024-06-24 at 9.34.37 PM.png>)
-![alt text](<Screenshot 2024-06-24 at 9.34.56 PM.png>)
-![alt text](<Screenshot 2024-06-24 at 9.35.02 PM.png>)
-![alt text](<Screenshot 2024-06-24 at 9.35.46 PM.png>)
+![home page](<./images/Screenshot 2024-06-24 at 9.19.24 PM.png>)
+![dark home page](<./images/Screenshot 2024-06-24 at 9.32.46 PM.png>)
+![fill form](<./images/Screenshot 2024-06-24 at 9.35.02 PM.png>)
+![blog post](<./images/Screenshot 2024-06-24 at 9.34.14 PM.png>)
+![blog post dark](<./images/Screenshot 2024-06-24 at 9.33.45 PM.png>)
+
+![link to portfolio](<./images/Screenshot 2024-06-24 at 9.34.29 PM.png>)
+![portfolio](<./images/Screenshot 2024-06-24 at 9.34.37 PM.png>)
+![back button](<./images/Screenshot 2024-06-24 at 9.34.56 PM.png>)
+
+![console showing arrays](<./images/Screenshot 2024-06-24 at 9.35.46 PM.png>)
 
 ### Links
 
